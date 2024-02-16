@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FICHIERS CSS -->
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/flex.css">
+    <link rel="stylesheet" href="css/wickedcss.min.css">
+    <link rel="stylesheet" href="css/elements/footer.css">
+    <link rel="stylesheet" href="css/elements/menu.css">
+    <!-- FICHIERS CSS-->
+    <!-- LIBRAIRIES -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <!-- LIBRAIRIES -->
+    <link rel="shortcut icon" href="images/pp.png" type="image/x-icon">
+    <title>Accueil</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <input type="checkbox" role="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="menu">
+            <ul id="menu">
+
+                <li><a href="index.html" id="active">Accueil</a></li>
+                <li><a href="profil.html">Profil</a></li>
+                <li><a href="contact.html">Contactez-nous</a></li>
+                <li><a href="faq.html">Foire aux questions</a></li>
+                <li><a href="http://www.astymoulin.be/j34" target="_blank" rel="noopener noreferrer">Mon école</a> <i class="fas fa-heart"></i></li> 
+                <!-- Source menu : https://www.guyom-design.com/blog/astuces/css/creer-hamburger-menu-css/ -->
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="animate__animated animate__pulse">Mes cours d'informatique</h1>
+        <div class="card">
+            <img src="images/html.png" alt="Person 1">
+            <div class="card-info">
+                <h2>Html</h2>
+                <p>HTML est le langage standard pour la création de pages web. Utilisant des balises pour définir la
+                    structure, il permet d'organiser le contenu en titres, paragraphes, images, liens, etc. Les
+                    navigateurs interprètent le code HTML pour afficher des pages web structurées. </p>
+                <a href="http://www.google.com" target="_blank" rel="noopener noreferrer" class="boutons">Voir la
+                    documentation</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/css.png" alt="Person 1">
+            <div class="card-info">
+                <h2>Css</h2>
+                <p>CSS est un langage de style utilisé pour embellir et mettre en page les pages web créées en HTML. En
+                    définissant des règles de style, CSS permet de contrôler la couleur, la police, la mise en page, et
+                    autres aspects de la présentation. Il assure une séparation claire entre la structure (HTML) et le
+                    style.</p>
+                <a href="http://www.google.com" target="_blank" rel="noopener noreferrer" class="boutons">Voir la
+                    documentation</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/python.png" alt="Person 1">
+            <div class="card-info">
+                <h2>Python</h2>
+                <p>Python, langage de programmation polyvalent, se distingue par sa syntaxe lisible et sa simplicité. Il
+                    est utilisé dans divers domaines tels que le développement web, la science des données et
+                    l'automatisation. Sa communauté active et ses bibliothèques étendues en font un choix populaire pour
+                    les développeurs.</p>
+                <a href="http://www.google.com" target="_blank" rel="noopener noreferrer" class="boutons">Voir la
+                    documentation</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/javascript.png" alt="Person 2">
+            <div class="card-info">
+                <h2>javascript</h2>
+                <p>JavaScript est un langage de programmation côté client qui permet d'ajouter des fonctionnalités
+                    interactives aux pages web. Exécuté dans le navigateur, il peut manipuler le contenu, répondre aux
+                    événements et communiquer avec le serveur. En complément d'HTML et CSS, JavaScript offre une
+                    expérience utilisateur dynamique.</p>
+                <a href="http://www.google.com" target="_blank" rel="noopener noreferrer" class="boutons">Voir la
+                    documentation</a>
+            </div>
+        </div>
+    </main>
+</body>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<script src="https://unpkg.com/feather-icons"></script>
+<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+
+</html>

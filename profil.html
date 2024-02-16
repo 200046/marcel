@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FICHIERS CSS -->
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/flex.css">
+    <link rel="stylesheet" href="css/wickedcss.min.css">
+    <link rel="stylesheet" href="css/elements/footer.css">
+    <link rel="stylesheet" href="css/elements/menu.css">
+    <!-- FICHIERS CSS-->
+    <!-- LIBRAIRIES -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <!-- LIBRAIRIES -->
+    <link rel="shortcut icon" href="images/pp.png" type="image/x-icon">
+    <title>Page profil</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <input type="checkbox" role="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="menu">
+            <ul id="menu">
+                <li><a href="index.html" id="active">Accueil</a></li>
+                <li><a href="profil.html">Profil</a></li>
+                <li><a href="contact.html">Contactez-nous</a></li>
+                <li><a href="faq.html">Foire aux questions</a></li>
+                <li><a href="http://www.astymoulin.be/j34" target="_blank" rel="noopener noreferrer">Mon école</a></li>
+                <!-- Source menu : https://www.guyom-design.com/blog/astuces/css/creer-hamburger-menu-css/ -->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Mon profil</h1>
+        <ol>
+            <div>
+                <li>Nom</li>
+                <p>Tasnier</p>
+            </div>
+            <div>
+                <li>Prénom</li>
+                <p>Marcel</p>
+            </div>
+            <div>
+                <li>Adresse postale</li>
+                <p>Place de la route, 5151 Anvers</p>
+            </div>
+            <div>
+                <li>Photo de profil</li>
+                <div class="progress">
+                    <div class="progress-bar"></div>
+                </div>
+                <img id="imageProfil" src="images/pp.png" alt="Mon image de profil">
+            </div>
+        </ol>
+    </main>
+</body>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</html>
