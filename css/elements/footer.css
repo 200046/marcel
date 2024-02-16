@@ -1,0 +1,72 @@
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    transition: all 0.5s ease; /* Ajout de la transition pour tous les changements */
+}
+
+.footer-left, .footer-right {
+    width: 45%;
+    transition: transform 0.5s ease, opacity 0.5s ease; /* Ajout de la transition pour la mise à l'échelle et la rotation */
+}
+
+.footer-left h3, .footer-right h3 {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+}
+
+/* Responsive Styles */
+
+@media screen and (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-left, .footer-right {
+        width: 100%;
+        margin-bottom: 20px;
+        transform: scale(1) rotate(0deg); /* Réinitialiser la transformation pour les petits écrans */
+    }
+
+    .footer-left {
+        display: none; /* Masquer la partie gauche sur les petits écrans */
+    }
+}
+
+/* Styles pour les écrans plus larges (PC) */
+@media screen and (min-width: 769px) {
+    .footer-container {
+        text-align: center;
+    }
+
+    .footer-left, .footer-right {
+        width: auto;
+        transition: transform 0.5s ease, opacity 0.5s ease; /* Ajout de la transition pour la mise à l'échelle et la rotation */
+    }
+
+    .footer-left {
+        display: block; /* Afficher la partie gauche sur les écrans plus larges */
+    }
+
+    .footer-right {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Effet de mise à l'échelle et de rotation au survol pour la partie droite */
+    .footer-right:hover {
+        transform: scale(1.1) rotate(10deg);
+    }
+}
