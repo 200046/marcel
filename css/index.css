@@ -73,6 +73,7 @@ h1 {
     color: white;
     border-radius: 10%;
     transform: scale(1.2) rotate(45deg) translate(10px, 10px);
+    color: red;
 }
 
 img {
